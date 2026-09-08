@@ -21,10 +21,13 @@
 # print("the sum of first n natural numbers is: ", total)
 
 #find and calculate the factorial of a number in Python
+# n = int(input("enter the number to calculate factorial: "))
+# factorial = 1
+# for i in range(1, n+1):
+#     factorial *= i
+# print("the factorial of the number is: ", factorial)
 
-
-n = int(input("enter the number to calculate factorial: "))
-factorial = 1
-for i in range(1, n+1):
-    factorial *= i
-print("the factorial of the number is: ", factorial)
+#find and calculate square root of a number in Python
+# n = float(input("enter the number to calculate the square root: "))
+# square_root = n ** 0.5
+# print("the square root of the number is: ", square_root)
