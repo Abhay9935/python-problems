@@ -48,3 +48,26 @@ elif x > 0:
 else:
     print("the no. is negative")
 
+'how to check leap year'
+year = int(input("enter the year: "))
+if year % 400 == 0:
+    print("leap yaer")
+elif year % 100 == 0:
+    print("not leap year")
+elif year % 4 == 0:
+    print("leap year")
+else:
+    print("not leap year")
+
+
+'how to check the no is prime or not'
+n = int(input("enter the number:"))
+if n == 1:
+    print("not prime")
+else:
+    for i in range(2, (n ** 0.5)+1):
+        if n % i == 0:
+            print("not prime")
+            break
+    else:
+     print("prime")
