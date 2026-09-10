@@ -80,7 +80,7 @@ for i in range(1, 11):
     print(n, "X", i, "=", mul)
 
 
-'find HCF and GCD'
+'find HCF or GCD'
 # Numbers input
 numbers = list(map(int, input("Enter numbers: ").split()))
 
