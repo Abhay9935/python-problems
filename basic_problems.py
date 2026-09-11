@@ -91,7 +91,7 @@ for num in numbers:
 print("Factors: ", all_factor)
 
 
-'find HCF and GCD'
+'find HCF or GCD'
 # Numbers input
 numbers = list(map(int, input("Enter numbers: ").split()))
 
