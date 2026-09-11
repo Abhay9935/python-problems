@@ -79,6 +79,17 @@ for i in range(1, 11):
     mul = i * n
     print(n, "X", i, "=", mul)
 
+'program to find factors of a no.'
+numbers = list(map(int, input("Enter the number: ").split()))
+all_factor = []
+for num in numbers:
+    factors = []
+    for i in range(1, num+1):
+        if num % i == 0:
+            factors.append(i)
+    all_factor.append(factors)
+print("Factors: ", all_factor)
+
 
 'find HCF and GCD'
 # Numbers input
@@ -115,3 +126,4 @@ print("Common factors:", common_factors)
 gcd = max(common_factors)
 
 print("GCD:", gcd)
+
