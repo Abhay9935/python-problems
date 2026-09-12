@@ -37,3 +37,10 @@ elif choice == 5:
 else:
     print("Invalid choice")
 
+'Write a program to calculate the sum of all even numbers from 1 to n.'
+n = int(input("enter the no:"))
+even_numbers = []
+for i in range(1, n+1):
+    if i % 2 == 0:
+        even_numbers.append(i)
+print("sum:",sum(even_numbers))
