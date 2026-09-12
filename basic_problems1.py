@@ -44,3 +44,20 @@ for i in range(1, n+1):
     if i % 2 == 0:
         even_numbers.append(i)
 print("sum:",sum(even_numbers))
+
+'Write a program to calculate the sum of the first n even numbers.'
+n = int(input("enter the no :"))
+sum = n*(n + 1)
+print("sum:", sum)
+
+
+'Write a program to count how many even and odd numbers are present in a list.'
+n = list(map(int, input("enter the numbers with sapces:").split()))
+even_count = 0
+odd_count = 0
+for i in range(1, len(n)+1):
+    if i % 2 == 0:
+       even_count += 1
+    else:
+        odd_count += 1
+print("even count:", even_count, "odd count:", odd_count)
