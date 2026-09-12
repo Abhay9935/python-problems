@@ -70,3 +70,17 @@ while n > 0:
     reversed = reversed * 10 + digit
     n = n//10
 print("reversed no:", reversed)
+
+
+'Write a program to check whether a given number is a palindrome'
+n = int(input("enter the no:"))
+o = n
+reversed = 0
+while n > 0:
+    digit = n % 10 
+    reversed = reversed * 10 + digit
+    n = n//10
+if reversed == o:
+    print("palindrome")
+else:
+    print("not palindrome")
