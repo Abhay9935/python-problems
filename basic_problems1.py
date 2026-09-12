@@ -61,3 +61,12 @@ for i in range(1, len(n)+1):
     else:
         odd_count += 1
 print("even count:", even_count, "odd count:", odd_count)
+
+'Write a program to reverse a given number'
+n = int(input("enter the no:"))
+reversed = 0
+while n > 0:
+    digit = n % 10 
+    reversed = reversed * 10 + digit
+    n = n//10
+print("reversed no:", reversed)
