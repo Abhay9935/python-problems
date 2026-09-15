@@ -84,3 +84,24 @@ if reversed == o:
     print("palindrome")
 else:
     print("not palindrome")
+
+'Write a Python program that takes a number from the user and checks whether it is a strong number.'
+def factorial(x):
+    result = 1
+    for i in range(1, x + 1):
+        result *= i
+    return result
+
+n = int(input("enter the no: "))
+number = n
+total = 0
+while n > 0:
+    digit = n % 10
+    n = n//10
+
+    total += factorial(digit)
+
+if total == number:
+    print("Strong No.")
+else:
+    print("not strong no")
