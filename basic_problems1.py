@@ -117,3 +117,25 @@ while y > 0:
     y = y//10
     total += digit
 print(total)
+
+'Check whether a number is an Armstrong number.'
+n = int(input("enter the no: "))
+y = abs(n)
+digits = len(str(y))
+
+def square(x):
+    square = x**digits
+    return square
+
+number = y
+total = 0
+while y > 0:
+    digit = y % 10
+    y = y//10
+
+    total += square(digit)
+
+if total == number:
+    print("Armstrong number")
+else:
+    print("Not Armstrong number")
