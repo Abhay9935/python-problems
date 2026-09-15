@@ -105,3 +105,15 @@ if total == number:
     print("Strong No.")
 else:
     print("not strong no")
+
+
+
+'finds the sum of all digits of a number.'
+n = int(input("enter the no"))
+y = abs(n)
+total = 0
+while y > 0:
+    digit = y % 10
+    y = y//10
+    total += digit
+print(total)
