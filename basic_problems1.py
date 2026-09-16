@@ -157,3 +157,15 @@ for i in range (len(numbers)):
         print("even")
     else:
         print("odd")
+
+
+'Frequency of Every Element'
+numbers = list(map(int, input("enter the number with spaces: ").split()))
+frequency = {}
+for num in numbers:
+    if num in frequency:
+        frequency[num] += 1
+    else:
+        frequency[num] = 1
+for num in frequency:
+    print(num, ":", frequency[num])
