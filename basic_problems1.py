@@ -148,3 +148,12 @@ b = 1
 for i in range(n):
     print(a, end=" ")
     a, b = b, a + b
+
+
+'check the no even or odd in list'
+numbers = [12, 7, 8, 15, 20, 31, 44]
+for i in range (len(numbers)):
+    if numbers[i] % 2 ==0:
+        print("even")
+    else:
+        print("odd")
