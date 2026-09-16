@@ -7,6 +7,10 @@ for i in range(n):
     average = total/n
 print("the average of the no. is : ", average)
 
+'OR'
+x = list(map(int, input("enter the numbers with space: ").split()))
+print("the average of the no. is : ", sum(x)/len(x))
+
 'How to find the sum of first "n" natural numbers in Python'
 n = int(input("enter the value of n: "))
 total = 0
@@ -126,4 +130,3 @@ print("Common factors:", common_factors)
 gcd = max(common_factors)
 
 print("GCD:", gcd)
-
