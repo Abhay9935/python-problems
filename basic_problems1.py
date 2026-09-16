@@ -169,3 +169,12 @@ for num in numbers:
         frequency[num] = 1
 for num in frequency:
     print(num, ":", frequency[num])
+
+
+'programe to remove All Occurrences'
+numbers = list(map(int, input("Enter numbers:").split()))
+newlist = []
+for num in numbers:
+    if numbers.count(num) == 1:
+        newlist.append(num)
+print(newlist)
