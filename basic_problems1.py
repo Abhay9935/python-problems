@@ -178,3 +178,11 @@ for num in numbers:
     if numbers.count(num) == 1:
         newlist.append(num)
 print(newlist)
+
+
+'programme to check no is even or odd by binary check'
+num = int(input("Enter a number: "))
+if num & 1:
+    print("Odd")
+else:
+    print("Even")
