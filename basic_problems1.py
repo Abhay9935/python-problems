@@ -186,3 +186,10 @@ if num & 1:
     print("Odd")
 else:
     print("Even")
+
+'Write a Python program using & to check whether Read Permission is ON or OFF.'
+permission = int(input("Enter permission: "))
+if permission & 1:
+    print("Read permission is ON")
+else:
+    print("Read permission is OFF")
