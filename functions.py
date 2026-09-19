@@ -33,7 +33,7 @@ def factorial(n):
 print(factorial(5))   #example
 
 
-'function count_digits(n) that returns the number of digits.'
+'function count digits that returns the number of digits.'
 def count_digit(n):
     count = 0
     while n > 0:
