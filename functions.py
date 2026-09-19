@@ -20,4 +20,14 @@ def largest_no():
     Ln = max(numbers)
     return Ln
 
-print(largest_no())
+print(largest_no())    #example
+
+
+'function for factorial'
+def factorial(n):
+    factorial = 1
+    for i in range(1, n+1):
+        factorial = factorial * i
+    return(factorial)
+
+print(factorial(5))   #example
