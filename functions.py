@@ -59,4 +59,15 @@ if is_prime(n):
 else:
     print("Not a prime number")
 
+'function that returns the second-largest unique number.'
+def second_largest():
+    numbers = list(map(int, input("Enter the numbers: ").split()))
+    numbers.remove(max(numbers))  # remove largest
+    second_largest_no = max(numbers)
+    return second_largest_no
+
+
+print(second_largest())
+
+
 
