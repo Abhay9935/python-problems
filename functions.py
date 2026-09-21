@@ -86,3 +86,14 @@ def check_word(s):
 
 check_word(s)
 
+
+'Function that check word is palindrone or not'
+s = input().lower()
+def check_pel(s):
+    if s[::-1] == s:
+        print("palindone")
+    else:
+        print("not pallindrone")
+
+
+check_pel(s)
