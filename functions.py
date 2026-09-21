@@ -70,4 +70,19 @@ def second_largest():
 print(second_largest())
 
 
+'defnition to check vowel and consonent in word'
+s = input().lower()
+def check_word(s):
+    vowel_count = 0
+    consonant_count = 0
+    for i in s:
+        if i in "aeiou":
+            vowel_count += 1
+        else:
+            consonant_count += 1
+
+    print("Vowels:", vowel_count)
+    print("Consonants:", consonant_count)
+
+check_word(s)
 
