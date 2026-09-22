@@ -210,3 +210,15 @@ if word == word[ : :-1]:
 else:
     print("Not Palindrome")
 
+
+'Given a non-negative integer n, convert it to its binary representation without calling a built-in binary-conversion function.'
+n = int(input())
+if n == 0:
+    print("0")
+else:
+    binary = ""
+    while n > 0:
+        remainder = n % 2
+        binary = str(remainder) + binary
+        n = n // 2
+    print(binary)
