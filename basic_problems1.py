@@ -222,3 +222,14 @@ else:
         binary = str(remainder) + binary
         n = n // 2
     print(binary)
+
+'Find the sum of all even-valued Fibonacci terms that do not exceed a given maximum value'
+limit = int(input())
+a = 1
+b = 1
+total = 0
+while a <= limit:
+    if a % 2 == 0:
+        total += a
+    a, b = b, a + b
+print(total)
