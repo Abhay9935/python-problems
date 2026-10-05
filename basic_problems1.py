@@ -233,3 +233,18 @@ while a <= limit:
         total += a
     a, b = b, a + b
 print(total)
+
+
+
+'program to check whether a given character is present in the word "codeforces" or not.'
+
+number = int(input())
+word = "codeforces"
+for i in range(number):
+    ch = str(input())
+    if ch in str(word):
+        print("yes")
+    else:
+        print("No")
+
+
