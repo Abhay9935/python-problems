@@ -127,3 +127,21 @@
 #     return primes
 
 # print(prime_numbers(10, 30))
+
+
+# 'Program to change case of string according to their count'
+# s = input()
+# upper_case = 0
+# lower_case = 0
+# for ch in s:
+#     if ch.isupper():
+#         upper_case += 1
+#     else:
+#         ch.islower()
+#         lower_case += 1
+# if upper_case > lower_case:
+#     print(s.upper())
+# else:
+#     print(s.lower())
+
+
